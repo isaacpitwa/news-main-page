@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap');
+
+body{
+    width: 80%;
+    margin: 4%  auto;
+    font-family: 'Inter', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav__links {
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav__links li {
+    list-style: none;
+    padding: 0 1rem;
+
+}
+.header .nav__links li a {
+    color: hsl(233, 8%, 79%);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.landing {
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    padding: 5% 0;
+}
+.landing__content {
+    width: 70%;
+}
+.landing_highlights {
+    width: 30%;
+    background-color: hsl(240, 100%, 5%);
+}
+.web3-content {
+    display: flex;
+    align-items:  flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+    gap:3rem
+}
+.web3-content .web3-title {
+    font-size: 2.4rem;
+    margin: 0;
+}
+.web3-content .web3-text {
+    font-size: 1.0rem;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+    margin: 0;
+    margin-bottom: 2.4em;
+}
+.web3-container {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../assets/images/image-web-3-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-primary {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.landing_highlights {
+    padding: 2em 1.6em;
+}
+.landing_highlights  .tag{
+ color: hsl(35, 77%, 62%);
+ font-size: 1.4em;
+}
+.highlight {
+    padding: 16px 0;
+}
+.highlight h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+.highlight p {
+    font-size: 0.9rem;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+    margin: 4px 0;
+    border-bottom:  1px solid hsl(236, 13%, 42%);
+    padding-bottom: 18px;
+}
+.top img {
+    width: 25%;
+}
+.top {
+    display: flex;
+    gap: 1.5em;
+    width: calc(100%/3);
+}
+.top h4 {
+    margin: 16px 0;
+    font-size: 1.1rem;
+}
+.top p{
+    font-size: 0.9rem;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.2rem;
+    margin: 0;
+}
+.position {
+    font-size: 1.8rem;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5rem;
+    margin: 4px 0;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 4rem;
+}
